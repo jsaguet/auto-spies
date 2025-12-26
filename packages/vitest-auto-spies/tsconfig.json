@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "lib": ["es2015", "es2016", "es2017", "DOM"],
+    "types": ["node", "vitest", "vitest/globals", "@hirez_io/vitest-given"]
+  },
+  "include": ["src"],
+  "exclude": []
+}

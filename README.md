@@ -1,7 +1,9 @@
 # auto-spies monorepo
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Easy and type safe way to write spies for tests, for both sync and async (promises, Observables) returning methods.
@@ -12,6 +14,7 @@ This is the monorepo of:
 | -------------------- | ---------------------------------------------------------- | ------------------------------------------------------- |
 | [jasmine-auto-spies] | [![jasmine-auto-spies-status]][jasmine-auto-spies-package] | Easy and type safe way to write spies for jasmine tests |
 | [jest-auto-spies]    | [![jest-auto-spies-status]][jest-auto-spies-package]       | Easy and type safe way to write spies for jest tests    |
+| [vitest-auto-spies]  | [![vitest-auto-spies-status]][vitest-auto-spies-package]   | Easy and type safe way to write spies for vitest tests  |
 
 [jasmine-auto-spies]: https://github.com/hirezio/auto-spies/tree/master/packages/jasmine-auto-spies
 [jasmine-auto-spies-status]: https://img.shields.io/npm/v/jasmine-auto-spies.svg
@@ -19,6 +22,9 @@ This is the monorepo of:
 [jest-auto-spies]: https://github.com/hirezio/auto-spies/tree/master/packages/jest-auto-spies
 [jest-auto-spies-status]: https://img.shields.io/npm/v/jest-auto-spies.svg
 [jest-auto-spies-package]: https://npmjs.com/package/jest-auto-spies
+[vitest-auto-spies]: https://github.com/hirezio/auto-spies/tree/master/packages/vitest-auto-spies
+[vitest-auto-spies-status]: https://img.shields.io/npm/v/vitest-auto-spies.svg
+[vitest-auto-spies-package]: https://npmjs.com/package/vitest-auto-spies
 
 <br/>
 
@@ -37,7 +43,8 @@ This is the monorepo of:
 
 Want to contribute? Yayy! 🎉
 
-Please read and follow our [Contributing Guidelines](CONTRIBUTING.md) to learn what are the right steps to take before contributing your time, effort and code.
+Please read and follow our [Contributing Guidelines](CONTRIBUTING.md) to learn what are the right steps to take before
+contributing your time, effort and code.
 
 Thanks 🙏
 
@@ -83,7 +90,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification.
+Contributions of any kind welcome!
 
 ## License
 

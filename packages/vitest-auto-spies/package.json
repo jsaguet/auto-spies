@@ -1,0 +1,49 @@
+{
+  "name": "vitest-auto-spies",
+  "version": "0.0.0",
+  "author": {
+    "name": "Shai Reznik",
+    "company": "HiRez.io"
+  },
+  "description": "Create automatic spies from classes in Vitest tests, also for promises and observables",
+  "license": "MIT",
+  "keywords": [
+    "vitest",
+    "vitest-given",
+    "spies",
+    "mocks",
+    "async methods",
+    "TypeScript Tests",
+    "RxJS testing",
+    "Promises tests"
+  ],
+  "homepage": "https://github.com/hirezio/auto-spies/tree/master/packages/vitest-auto-spies",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hirezio/auto-spies.git",
+    "directory": "packages/vitest-auto-spies"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist tsconfig.build.tsbuildinfo",
+    "compile": "tsc -b tsconfig.build.json",
+    "build": "run-s clean compile",
+    "test": "vitest",
+    "test:watch": "vitest --watchAll"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.14",
+    "vitest": "^4.0.16",
+    "rxjs": "^7.5.1",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@hirez_io/auto-spies-core": "3.0.0"
+  },
+  "peerDependencies": {
+    "vitest": ">= 29.0.0 < 31.x",
+    "rxjs": ">=6.0.0 < 8",
+    "typescript": ">=2.8.1"
+  }
+}

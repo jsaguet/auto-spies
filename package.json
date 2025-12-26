@@ -46,6 +46,7 @@
     "@ephesoft/webpack.istanbul.loader": "^2.2.0",
     "@hirez_io/jasmine-given": "1.0.5",
     "@hirez_io/jest-given": "1.1.1",
+    "@hirez_io/vitest-given": "1.1.0",
     "@hirez_io/observer-spy": "^2.2.0",
     "@types/tapable": "2.2.2",
     "@types/webpack": "5.28.0",
