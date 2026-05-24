@@ -1,4 +1,4 @@
-import { AddSpyMethodsByReturnTypes } from '.';
+import { AddSpyMethodsByReturnTypes } from './vitest-auto-spies.types';
 import { CalledWithObject, createFunctionAutoSpy, Func } from '@hirez_io/auto-spies-core';
 import { vi } from 'vitest';
 

@@ -14,7 +14,7 @@ export type Spy<ClassToSpyOn> = AddVitestAutoSpies<ClassToSpyOn> &
   AddAccessorsSpies<ClassToSpyOn, Mock>;
 
 type AddVitestAutoSpies<ClassToSpyOn> = {
-  [Key in keyof ClassToSpyOn /* 
+  [Key in keyof ClassToSpyOn /*
   if it's a method */]: ClassToSpyOn[Key] extends Func
     ? AddSpyMethodsByReturnTypes<ClassToSpyOn[Key]>
     : // if it's a property of type Observable
